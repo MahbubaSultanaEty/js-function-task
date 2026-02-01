@@ -31,3 +31,24 @@ function makeAvg(nums) {
 let marks = [84, 76, 76, 89, 87];
 
 makeAvg(marks);
+
+
+// Write a function that takes an array of numbers and returns the average of all odd numbers only.
+function odd_avg(n) {
+    let sum = 0;
+    let count = 0
+    for (let i = 0; i < n.length; i++){
+        if (n[i] % 2 !== 0) {
+            sum = sum + n[i];
+            count++;
+        }
+    } if (count === 0) {
+        return "theres no odd number"
+    } else {
+        
+        console.log((sum / count).toFixed(2) );
+    }
+}
+ 
+let numbers = [23, 34, 12, 45, 33];
+odd_avg(numbers);

@@ -11,4 +11,21 @@ function Number(n){
 
 Number(8);
 
-Number(7)
+Number(7);
+
+
+// Similar Practice Task
+
+// 👉 Take a number. If the number is even, multiply it by 5. If the number is odd, add 10 to it and return the result.
+
+function math(num) {
+    if (num % 2 === 0) {
+        result = num * 5;
+        console.log("multiplied the num by 5 : ", result);
+    } else if (num % 2 !== 0){
+        result = num + 10;
+        console.log("added 10 to the num: ", result);
+    }
+}
+math(23);
+math(8);

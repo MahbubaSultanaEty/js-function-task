@@ -22,3 +22,16 @@ console.log(result);
 let number2 = 17;
 let result2 = odd_even(number2);
 console.log(result2);
+
+// similar one
+// Write a function that takes a number and returns "Positive" if the number is greater than 0, otherwise return "Negative".
+
+function pos_neg(number) {
+    if (number > 0) {
+        return "Positive";
+    }
+    else {
+        return "Negaitve";
+    }
+}
+console.log(pos_neg(-4));

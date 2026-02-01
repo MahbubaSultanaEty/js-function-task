@@ -9,3 +9,16 @@ function count_zero(str) {
 
 let binary = "01101100";
 count_zero(binary);
+
+
+
+// Similar Practice Task
+
+// 👉 Write a function that takes a string and counts how many times the letter a appears.
+
+function newStr(count) {
+    let arr = count.split("b");
+    console.log(arr.length - 1);
+}
+let sentence = "Ajke jaite dibona , dhodde jabanga ";
+newStr(sentence);
